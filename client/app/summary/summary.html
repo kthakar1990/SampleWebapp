@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div role="tabpanel">
+                    <div class="panel-body">
+                      <h1>{{vm.message}}</h1>
+                      <table st-table="vm.summary" class="table table-striped">
+                        <thead>
+                        <tr>
+                          <th>Company</th>
+                          <th>Cost</th>
+                        </tr>
+                        </thead>
+                        <tbody ng-repeat="row in vm.summary track by $index">
+                        <tr ng-if="vm.summary.length >= 0">
+                            <td>{{row.key}}</td>
+                            <td>{{row.value}}</td>
+                        </tr>
+                        </tbody>
+                      </table>
+                      <div>
+                          <div ng-if="vm.summary.length === 0" class="text-center" style="margin-top: 10px">
+                            <span class="text-center" style="color: #525c56; width: 100%">No data</span>
+                          </div>
+                      </div>
+        
+        </div>
+    </div>
+</div>
+      
