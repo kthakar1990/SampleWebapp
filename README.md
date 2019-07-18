@@ -1,4 +1,4 @@
-# michael-test
+# sampleWebApp
 
 ## Getting Started
 This is a demo project for Michael's team. This project is using Angularjs ES6 and Expressjs on Node engine.
