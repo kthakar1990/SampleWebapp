@@ -28,7 +28,7 @@
     "errorhandler": "^1.4.2",
     "express": "^4.13.3",
     "express-session": "^1.11.3",
-    "fast-json-patch": "^1.0.0",
+    "fast-json-patch": "^3.1.1",
     "font-awesome": ">=4.1.0",
     "group-reduce": "^0.2.0",
     "lodash": "^4.6.1",
